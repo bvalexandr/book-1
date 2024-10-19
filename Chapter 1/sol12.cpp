@@ -11,6 +11,7 @@ int main(void) {
     double shilling = decfrac * 20;
     decfrac = shilling - static_cast<int>(shilling);
     double pens = decfrac * 12;
-    cout << "Эквивалентная сумма в старой форме записи: J" << old_funt << '.' << static_cast<int>(shilling) << '.' << static_cast<int>(pens) << endl;
+    cout << "Эквивалентная сумма в старой форме записи: J" << old_funt << '.' << static_cast<int>(shilling)
+         << '.' << static_cast<int>(pens) << endl;
     return 0;
 }

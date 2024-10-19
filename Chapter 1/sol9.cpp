@@ -10,6 +10,7 @@ int main(void) {
     std::cin >> a_up >> ch >> a_down;
     std::cout << "Введите вторую дробь: ";
     std::cin >> b_up >> ch >> b_down;
-    std::cout << "Сумма дробей равна: " << (a_up*b_down + a_down*b_up) << ch << a_down*b_down << std::endl;
+    std::cout << "Сумма дробей равна: " << (a_up * b_down + a_down * b_up) << ch << a_down * b_down
+              << std::endl;
     return 0;
 }
