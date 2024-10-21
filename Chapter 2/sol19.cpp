@@ -10,7 +10,7 @@ int main(void) {
     cin >> first;
     cout << "Введите число лет: ";
     cin >> years;
-    cout << "Введите прочентную ставку: ";
+    cout << "Введите процентную ставку: ";
     cin >> percent;
     percent /=100;
     for (int i = 0; i < years; i++) {
