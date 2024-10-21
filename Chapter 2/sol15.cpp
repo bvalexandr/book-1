@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <iostream>
 
 int main(void) {
@@ -6,7 +7,7 @@ int main(void) {
     char key = 0;
     std::cout << "Введите число: ";
     while ((key = getchar()) != '\n') {
-        res = res*10 + (key - '0');
+        res = res * 10 + (key - '0');
     }
     std::cout << "Введено число: " << res << '\n';
     return 0;

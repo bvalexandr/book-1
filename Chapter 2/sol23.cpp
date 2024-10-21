@@ -57,7 +57,8 @@ int main(void) {
                 first_pens -= second_pens;
                 first_pens %= 12;
                 first_funt -= second_funt;
-                cout << "Разница равна: J" << first_funt << '.' << first_shilling << '.' << first_pens << '\n';
+                cout << "Разница равна: J" << first_funt << '.' << first_shilling << '.' << first_pens
+                     << '\n';
                 break;
             case ('3'):
                 cout << "Введите сумму: J";
@@ -72,17 +73,18 @@ int main(void) {
                 first_pens %= 12;
                 first_funt += first_shilling / 20;
                 first_shilling %= 20;
-                
-                cout << "Сумма после умножения равна: J" << first_funt << '.' << first_shilling << '.' << first_pens << '\n';
+
+                cout << "Сумма после умножения равна: J" << first_funt << '.' << first_shilling << '.'
+                     << first_pens << '\n';
                 break;
             default:
                 break;
         }
-        
+
         cout << "Выполнить еще операцию (y/n)? ";
         cin >> exit_flag;
         exit_flag = exit_flag == 'y' ? 0 : 1;
     }
-    
+
     return 0;
 }

@@ -15,12 +15,14 @@ int main(void) {
     cin >> after;
     cout << "Введите процентную ставку: ";
     cin >> percent;
-    percent /=100;
-    first_copy += first_copy*percent;
+    percent /= 100;
+    first_copy += first_copy * percent;
     while (first_copy <= after) {
         years++;
-        first_copy += first_copy*percent;
+        first_copy += first_copy * percent;
     }
-    cout << "Для достижения целевой суммы " << after << " при начальном вкладе " << first << " и процентной ставке " << percent*100 << " потребуется " << years << " лет. При этом вы получите " << first_copy << " долларов\n";
+    cout << "Для достижения целевой суммы " << after << " при начальном вкладе " << first
+         << " и процентной ставке " << percent * 100 << " потребуется " << years
+         << " лет. При этом вы получите " << first_copy << " долларов\n";
     return 0;
 }

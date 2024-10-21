@@ -12,9 +12,9 @@ int main(void) {
     cin >> years;
     cout << "Введите процентную ставку: ";
     cin >> percent;
-    percent /=100;
+    percent /= 100;
     for (int i = 0; i < years; i++) {
-        first += first*percent;
+        first += first * percent;
     }
     cout << "Через " << years << " лет вы получите " << first << " долларов" << '\n';
     return 0;

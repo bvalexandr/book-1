@@ -13,6 +13,7 @@ int main(void) {
     for (int i = 0; i < seat_count; i++) {
         res *= (guest_count - i);
     }
-    cout << guest_count << " гостей могут разместиться на " << seat_count << " стульях " << res << " способами\n";
+    cout << guest_count << " гостей могут разместиться на " << seat_count << " стульях " << res
+         << " способами\n";
     return 0;
 }

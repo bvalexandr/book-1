@@ -29,7 +29,7 @@ int main(void) {
         cout << "Всего: J" << first_funt << '.' << first_shilling << '.' << first_pens << '\n';
         cout << "Продолжить (y/n)? ";
         cin >> ch;
-        ch = ch == 'y' ? 1: 0;
+        ch = ch == 'y' ? 1 : 0;
     } while (ch);
     return 0;
 }

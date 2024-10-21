@@ -1,5 +1,5 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
@@ -9,9 +9,9 @@ int main(void) {
     int cols = 10;
     cout << "Введите целое число: ";
     cin >> num;
-    for (int row = 1; row < rows+1; row++) {
-        for (int col = 1; col < cols+1; col++) {
-            cout << setw(8) << num*row*col << ' ';
+    for (int row = 1; row < rows + 1; row++) {
+        for (int col = 1; col < cols + 1; col++) {
+            cout << setw(8) << num * row * col << ' ';
         }
         cout << '\n';
     }

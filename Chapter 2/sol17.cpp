@@ -1,5 +1,5 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int main(void) {
     for (int row = 0; row < rows; row++) {
         cout << setw(rows - col) << "";
         cout << setfill(fill_ch);
-        cout << setw(1 + row*2) << "";
+        cout << setw(1 + row * 2) << "";
         cout << setfill(' ');
         cout << setw(rows - col) << "";
         cout << '\n';

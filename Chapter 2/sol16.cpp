@@ -34,6 +34,6 @@ int main(void) {
         cin >> exit_flag;
         exit_flag = exit_flag == 'y' ? 0 : 1;
     }
-    
+
     return 0;
 }
